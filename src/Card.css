@@ -1,0 +1,72 @@
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid thin black;
+    border-radius: 10px;
+    background-color: rgb(14, 94, 128);
+    width: 75%;
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    color: whitesmoke;
+    margin-top: 10rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 20px 40px, rgba(0, 0, 0, 0.4) 0px 15px 12px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+.divider {
+    border-top: thin solid white;
+    width: 100%;
+}
+
+.hex-wrapper {
+    border: solid thin white;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 0.5rem;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 4rem;
+    letter-spacing: .2rem;
+}
+
+.hex {
+    animation: pulse 500ms ease-in-out
+}
+
+@keyframes pulse {
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+.button {
+    padding: 1rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: larger;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition:
+        background-color 250ms ease-in-out,
+        transform 50ms ease-in-out;
+}
+
+.button:hover {
+    box-shadow: rgb(10, 242, 161) 0px 5px 15px;
+}
+
+.button:active {
+    transform: scale(0.95)
+}
