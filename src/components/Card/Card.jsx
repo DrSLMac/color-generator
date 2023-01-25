@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import PaletteBox from '../PaletteBox/PaletteBox'
 import './Card.css'
 
 const Card = () => {
@@ -17,6 +18,7 @@ const Card = () => {
             
             <div className='hex-wrapper' style={{backgroundColor: randomColor}}>
                 <h2 className='hex'>{randomColor}</h2>
+                <PaletteBox />
             </div>
             <hr className='divider'></hr>
             <button className='button'

@@ -4,7 +4,7 @@ import './ColorBox.css'
 const ColorBox = () => {
     return (
         <div>
-        
+        <p>this is a color</p>
         </div>
     )
 }
