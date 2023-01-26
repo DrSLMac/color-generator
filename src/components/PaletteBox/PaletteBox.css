@@ -1,0 +1,29 @@
+.hex-wrapper {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    border: solid thin white;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 0.5rem;
+}
+
+/* .FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 65%;
+    background-color: #2f1d58;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.FlexContainer div {
+    width: 175px;
+    height: 275px;
+    margin: 5px;
+    background-color: lightblue;
+} */
