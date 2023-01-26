@@ -3,7 +3,7 @@ import './ColorBox.css'
 import Favorite from "../Favorite/Favorite";
 
 const ColorBox = ({ hexColorCode }) => {
-    // console.log("in the box: ", hexColorCode)
+    
     return (
         <div className="colorbox" style={{backgroundColor: hexColorCode}}>
             <Favorite />

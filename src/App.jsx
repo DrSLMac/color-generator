@@ -1,5 +1,6 @@
 import './App.css'
 import Card from './components/Card/Card'
+import SavedColors from './components/SavedColors/SavedColors'
 
 
 //card will contain the paletteBox and generator button
@@ -15,6 +16,7 @@ function App() {
   return (
     <main className="App">
      <Card />
+     <SavedColors />
     </main>
   )
 }
